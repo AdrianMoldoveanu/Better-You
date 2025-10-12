@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"esnext","module":"esnext","jsx":"react","strict":true,"moduleResolution":"node","esModuleInterop":true,"skipLibCheck":true,"forceConsistentCasingInFileNames":true,"noEmit":true},"exclude":["node_modules","babel.config.js","metro.config.js","jest.config.js"]}
