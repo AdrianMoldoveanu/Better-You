@@ -1,3 +1,5 @@
+const task = document.getElementsByClassName('task');
+
 document.querySelectorAll('.timer').forEach(button => {
     button.addEventListener('click', function () {
         let seconds = 10;
@@ -7,6 +9,8 @@ document.querySelectorAll('.timer').forEach(button => {
         button.style.color = '#0ef506ff';
         button.style.backgroundColor = 'black';
         button.style.fontSize = '7rem';
+        const task = document.getElementsByClassName('.task');
+        task.classList.add('invisible');
         const originalText = button.textContent;
         button.textContent = `${seconds}s`;
 
