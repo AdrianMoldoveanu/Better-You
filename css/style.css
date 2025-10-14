@@ -1,0 +1,14 @@
+body {
+    background: url("/images/background-3820508.png") no-repeat center center fixed;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   color: #fafafa;
+}
+
+section,nav,header,footer{
+    border:1px solid #f50606;
+    }
