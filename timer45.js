@@ -1,23 +1,24 @@
 document.querySelectorAll('.timer').forEach(button => {
     button.addEventListener('click', function () {
         let seconds = 45;
+        const display = document.getElementById('display');
+        const task = document.getElementById('task');
+        const countdown = document.getElementById('countdown');
+        countdown.classList.remove('d-none');
+        task.classList.add('d-none');
+        display.textContent = `${seconds}s`;
         button.disabled = true;
-        button.classList.add('vh-100');
-        button.classList.add('vw-100');
-        button.style.fontSize = '7rem';
         const originalText = button.textContent;
-        button.textContent = `${seconds}s`;
         const interval = setInterval(() => {
             seconds--;
-            button.textContent = `${seconds}s`;
+            display.textContent = `${seconds}s`;
 
             if (seconds <= 0) {
                 clearInterval(interval);
                 button.textContent = originalText + "✅";
-                button.style.fontSize = '1.25rem';
-                button.classList.remove('vh-100');
-                button.classList.remove('vw-100');
                 button.disabled = false;
+                task.classList.remove('d-none');
+                countdown.classList.add('d-none');
             };
 
         }, 1000);
