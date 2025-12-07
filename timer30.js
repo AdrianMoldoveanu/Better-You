@@ -1,6 +1,6 @@
 document.querySelectorAll('.timer').forEach(button => {
     button.addEventListener('click', function () {
-        let seconds = 30+5;
+        let seconds = 35;
         const display = document.getElementById('display');
         const task = document.getElementById('task');
         const countdown = document.getElementById('countdown');
