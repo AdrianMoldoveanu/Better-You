@@ -1,6 +1,6 @@
 document.querySelectorAll('.timer').forEach(button => {
     button.addEventListener('click', function () {
-        let seconds = 30;
+        let seconds = 30+5;
         const display = document.getElementById('display');
         const task = document.getElementById('task');
         const countdown = document.getElementById('countdown');
@@ -21,6 +21,6 @@ document.querySelectorAll('.timer').forEach(button => {
                 countdown.classList.add('d-none');
             };
 
-        }, 1000);
+        },1000);
     });
 });
