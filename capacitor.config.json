@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.betteryou",
+  "appName": "Better You",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

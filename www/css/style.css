@@ -1,0 +1,94 @@
+body {
+    background: url("../images/background-3820508.png") no-repeat center center fixed;
+    font-family: 'Share-TechMono', sans-serif;
+    font-weight: 400;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+}
+
+#display {
+    font-size: 10rem;
+    color: #08f0f0;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    padding-top: 17vh;
+    text-shadow: -1px -1px 0 #ffff,
+        1px -1px 0 #ffff,
+        -1px 1px 0 #ffff,
+        1px 1px 0 #ffff;
+    font-weight: 600;
+}
+
+#countdown {
+    border-left: 2px solid #f50606;
+    border-right: 2px solid #f50606;
+    width: 100%;
+    height: 100vh;
+}
+
+nav,
+footer {
+    border: 2px solid #f50606;
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+#daily {
+    padding-top: 20%;
+}
+
+h2 {
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+n    font-weight: 700;
+    font-size: xx-large;
+}
+
+button{
+    box-shadow: 3px 3px 5px #000000;
+    border: 2px solid #f50606;
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-weight: 600;
+}
+
+a {
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+n}
+
+.routines a {
+    box-shadow: 3px 3px 5px #000000;
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+    font-weight: 600;
+}
